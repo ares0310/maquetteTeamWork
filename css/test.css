@@ -9,7 +9,10 @@
 	transform: translateY(-50%);
 }
 
-.carouselHauteur, .carouselHauteur img {height: 600px}
+.carouselHauteur, .carouselHauteur img {
+  height: 900px;
+  filter: brightness(70%);
+}
 
 .carouselHauteur span {
 	color: #0869DA
@@ -96,3 +99,110 @@
     opacity: 0;
   }
 }
+
+
+/* YASSINE */
+.yassine h5 {
+  color: grey;
+}
+
+.yassine p{
+  color: grey;
+}
+
+.nam{
+  display: flex;
+  justify-content:center;
+  text-align: center;
+}
+
+.fle1{
+  border: solid 5px grey;
+  padding: 5px;
+}
+
+.metier{
+  text-align: center;
+}
+
+/**********************************************************************************************************************************************************/
+/* syl */
+/*******/
+
+.text-gris {
+	color: #8faec2;
+}
+.contact svg{
+    align-self: center;
+	font-size: 1.5rem;
+	margin: 13px;
+}
+.contact p, .contact a{
+	margin: 0;
+	padding: 0;
+}
+.contact a{
+	color: #fff;
+}
+footer ul{
+	list-style: none;
+	padding: 0;
+}
+footer h3{
+	font-weight: 600;
+	font-size: 1.5rem;
+}
+.quickLink{
+	height: 80%;
+}
+.quickLink span, .services span{
+	position: relative;
+	bottom: 0.45rem;
+	left: -0.3rem;
+	font-size: 1.5rem;
+	font-weight: lighter;
+}
+.footerMainParent{
+ 	background: #033b4af3;
+}
+.footerMain{
+	background: center/contain url(../images/mapMonde.jpg)
+}
+.footerMain>div{
+ 	background: #033b4af3;
+}
+
+.social a{
+	display: block;
+	border-radius: 50px;
+	width: 2rem;
+	height: 2rem;
+}
+.social svg{
+	align-self: center;
+}
+
+.footerMain .card{
+	background: none;
+	border: none;
+}
+
+.Newsletter input{
+	border: none;
+	border-radius: 0;
+	background: #ffffff1b;
+}
+.Newsletter input::placeholder{
+	color: #ffffff90;
+	font-size: 0.9rem;
+	letter-spacing: 0.05rem;
+}
+.copyright{
+	background: #023341;
+	font-size: 0.9rem;
+	font-weight: 600;
+}
+
+/**********************************************************************************************************************************************************/
+/* FIN de sylvain */
+/*******/
