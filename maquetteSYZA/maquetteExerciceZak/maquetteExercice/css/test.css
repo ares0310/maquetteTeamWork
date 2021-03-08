@@ -1,0 +1,58 @@
+
+img {
+	border-radius: 50%;
+  }
+
+.colonneDroite {
+	background-color: #033b4a;
+	z-index: 10;
+	position: relative;
+	right: 50px;
+	top: 50px;
+
+}
+ul {
+	color: gold;
+}
+.pop svg
+{ font-size: 3rem;
+
+}
+.mar
+{
+	margin-left: 150px;
+}
+.card .carousel-item {
+	height: 200px;
+  }
+  .card .carousel-caption {
+	padding: 0;
+	right: 0;
+	left: 0;
+	color: #3d3d3d;
+  }
+  .card .carousel-caption h3 {
+	color: #3d3d3d;
+  }
+  .card .carousel-caption p {
+	line-height: 30px;
+  }
+  .card .carousel-caption .col-sm-3 {
+	display: flex;
+	align-items: center;
+  }
+  .card .carousel-caption .col-sm-9 {
+	text-align: left;
+  }
+  .navi a {
+	  text-decoration:none;
+  }
+  a > .ico {
+	  background-color: grey;
+	  padding: 10px;
+	  
+  }
+  a:hover > .ico {
+	  background-color: #666;
+  }
+  
